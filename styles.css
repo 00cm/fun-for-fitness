@@ -11,6 +11,9 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+
+/* NAV */ 
+
 li, a, button {
     color: #24252A;
     text-decoration: none;
@@ -27,9 +30,10 @@ li {
 }
 
 button {
-    background-color: #0897AF;
+    background-color: #ff0000;
+    color:#ffffff;
     font-size: 1.1em;
-    padding: 15% 30%;
+    padding: 15% 45%;
     border: none;
     cursor: pointer;
 }
@@ -45,4 +49,26 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     padding: 0px 5%;
+}
+
+
+/* HOME PAGE */
+
+.main-container {
+    width: 85%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+h1, p {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
 }
