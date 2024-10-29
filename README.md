@@ -1,6 +1,6 @@
-Chloe McEntire
-Fit For Fun Fitness Club
-Nov 4, 2024
+Chloe McEntire<br>
+Fit For Fun Fitness Club<br>
+Nov 4, 2024<br>
 
 
 # Github 
