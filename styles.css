@@ -72,3 +72,52 @@ h1, p {
     text-align: center;
     padding: 10px;
 }
+
+/* TABLE */
+
+.table-container {
+    width: 80%;
+    margin: 5% auto;
+}
+
+table {
+    margin: auto;
+}
+
+th {
+    background-color: #7BDB54;
+}
+
+td {
+    background-color: #5f5f5f;
+}
+
+td,th {
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+h2, th {
+    font-size: 1.3em;
+}
+
+p {
+    font-size: 1em;
+}
+
+.blue, .orange, .purple {
+    background-color: #bbb7b7;
+}
+
+.blue {
+    border-left: 3px solid rgb(0, 68, 255);
+}
+
+.orange {
+    border-left: 3px solid orange;
+}
+
+.purple {
+    border-left: 3px solid purple;
+}
