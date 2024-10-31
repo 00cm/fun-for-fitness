@@ -33,9 +33,9 @@ button {
     background-color: #ff0000;
     color:#ffffff;
     font-size: 1.1em;
-    padding: 15% 45%;
     border: none;
     cursor: pointer;
+    padding: 10px;
 }
 
 button:hover {
