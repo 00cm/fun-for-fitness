@@ -1,26 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fit For Fun</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="nav-container">
         <img class="logo" src="images/logo.png" alt="">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">Classes</a></li>
-                <li><a href="index.html">Info</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="info.html">Info</a></li>
             </ul>
         </nav>
-        <a href="#"><button>Contact</button></a>
+        <a href="#"><button>JOIN</button></a>
     </div>
 
     <div class="form-container">
-        
+        <form>
+            <label for="fname">First name:
+                <input type="text" name="fname" id="fname" required placeholder="John">
+            </label>
+
+            <label for="lname">Last name:
+                <input type="text" name="lname" id="lname" placeholder="Doe">
+            </label>
+
+            <label for="email">Email:
+                <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+            </label>
+
+            <label for="tel">Phone:
+                <input type="tel" name="tel" id="tel" required placeholder="(888)888-8888">
+            </label>
+
+            <label for="contact">Best way to contact you?
+                <select name="contact" id="contact">
+                    <option value="phone">Phone</option>
+                    <option value="email">Email</option>
+                    <option value="owl">Owl</option>
+                </select>
+            </label>
+
+            <p>What classes are you interested in?</p>
+
+            <label for="">Cross Training
+                <input type="checkbox" id="cross-training" name="cross-training">
+            </label>
+
+            <label for="">Sprint
+                <input type="checkbox" id="sprint" name="sprint">
+            </label>
+
+            <label for="">Spin
+                <input type="checkbox" id="spin" name="spin">
+            </label>
+
+            <label for="">BodyPump
+                <input type="checkbox" id="bodypump" name="bodypump">
+            </label>
+
+            <label for="">BodyCombat
+                <input type="checkbox" id="bodycombat" name="bodycombat">
+            </label>
+
+            <label for="">Step Interval
+                <input type="checkbox" id="step-interval" name="step-interval">
+            </label>
+
+            <label for="">Advanced Cross Training
+                <input type="checkbox" id="adv-cross-training" name="adv-cross-training">
+            </label>
+
+            <label for="">MixxedFIT
+                <input type="checkbox" id="mixxedfit" name="mixxedfit">
+            </label>
+
+            <label for="">Zumba
+                <input type="checkbox" id="zumba" name="zumba">
+            </label>
+
+            <p>What time of day is best for you?</p>
+
+            <label for="am">AM
+                <input type="radio" id="am" name="am" value="AM">
+            </label>
+
+            <label for="am">PM
+                <input type="radio" id="pm" name="pm" value="PM">
+            </label>
+
+            <input type="submit" value="Submit" class="submit">
+        </form>
     </div>
 </body>
+
 </html>
