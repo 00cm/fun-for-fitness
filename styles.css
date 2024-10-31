@@ -178,3 +178,12 @@ input#comments {
     padding: 5px;
     float: right;
 }
+
+/* HTTP GET RESPONSE thankyou.html */
+
+.container {
+    width: 40%;
+    margin: auto;
+    color: white;
+    padding: 50px;
+}
